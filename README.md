@@ -1,4 +1,3 @@
-# Reasonable-Dlls
-Dll versions of Reasonable Anti-Cheat
-## Go to a different branch for downloads
+# Reasonable Anti-Cheat Main Downloads
+## Dll branches
 [C++](https://github.com/Reasonable-Anti-Cheat/Reasonable-Dlls/tree/C%2B%2B)
