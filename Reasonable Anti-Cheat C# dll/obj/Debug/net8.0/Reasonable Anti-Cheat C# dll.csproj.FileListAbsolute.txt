@@ -1,0 +1,11 @@
+C:\Users\deanw\source\repos\MellCodeMaker\Reasonable Anti-Cheat C# dll\bin\Debug\net8.0\Reasonable Anti-Cheat C# dll.deps.json
+C:\Users\deanw\source\repos\MellCodeMaker\Reasonable Anti-Cheat C# dll\bin\Debug\net8.0\Reasonable Anti-Cheat C# dll.dll
+C:\Users\deanw\source\repos\MellCodeMaker\Reasonable Anti-Cheat C# dll\bin\Debug\net8.0\Reasonable Anti-Cheat C# dll.pdb
+C:\Users\deanw\source\repos\MellCodeMaker\Reasonable Anti-Cheat C# dll\obj\Debug\net8.0\Reasonable Anti-Cheat C# dll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deanw\source\repos\MellCodeMaker\Reasonable Anti-Cheat C# dll\obj\Debug\net8.0\Reasonable Anti-Cheat C# dll.AssemblyInfoInputs.cache
+C:\Users\deanw\source\repos\MellCodeMaker\Reasonable Anti-Cheat C# dll\obj\Debug\net8.0\Reasonable Anti-Cheat C# dll.AssemblyInfo.cs
+C:\Users\deanw\source\repos\MellCodeMaker\Reasonable Anti-Cheat C# dll\obj\Debug\net8.0\Reasonable Anti-Cheat C# dll.csproj.CoreCompileInputs.cache
+C:\Users\deanw\source\repos\MellCodeMaker\Reasonable Anti-Cheat C# dll\obj\Debug\net8.0\Reasonable Anti-Cheat C# dll.dll
+C:\Users\deanw\source\repos\MellCodeMaker\Reasonable Anti-Cheat C# dll\obj\Debug\net8.0\refint\Reasonable Anti-Cheat C# dll.dll
+C:\Users\deanw\source\repos\MellCodeMaker\Reasonable Anti-Cheat C# dll\obj\Debug\net8.0\Reasonable Anti-Cheat C# dll.pdb
+C:\Users\deanw\source\repos\MellCodeMaker\Reasonable Anti-Cheat C# dll\obj\Debug\net8.0\ref\Reasonable Anti-Cheat C# dll.dll
