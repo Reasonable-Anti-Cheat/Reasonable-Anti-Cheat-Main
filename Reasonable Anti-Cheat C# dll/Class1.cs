@@ -2,10 +2,10 @@
 using System;
 using System.IO;
 
-
 public class ReasonableAntiCheat
 {
     public string[] exampleFolders = { "Mods", "Dependencies", "Plugins", "BepInEx/plugins" };
+    public string[] exampleFileTypes = { ".dll", ".mod" };
 
     private bool isAllowed(UInt64 reason, UInt64[] allowedReasons)
     {
@@ -42,10 +42,13 @@ public class ReasonableAntiCheat
                     FileInfo fileInfo = new FileInfo(file);
                     if (fileTypesToCheck.Contains(fileInfo.Extension))
                     {
-                        if (!isAllowed(getChecksum(file), allowedReasons))
+                        if (fileInfo.Extension != ".notallowedfile")
                         {
-                            if (!needsRestart) { needsRestart = true; }
-                            retret(file);
+                            if (!isAllowed(getChecksum(file), allowedReasons))
+                            {
+                                if (!needsRestart) { needsRestart = true; }
+                                retret(file);
+                            }
                         }
                     }
                 }
@@ -56,10 +59,13 @@ public class ReasonableAntiCheat
                         FileInfo fileInfo = new FileInfo(file);
                         if (fileTypesToCheck.Contains(fileInfo.Extension))
                         {
-                            if (!isAllowed(getChecksum(file), allowedReasons))
+                            if (fileInfo.Extension != ".notallowedfile")
                             {
-                                if (!needsRestart) { needsRestart = true; }
-                                retret(file);
+                                if (!isAllowed(getChecksum(file), allowedReasons))
+                                {
+                                    if (!needsRestart) { needsRestart = true; }
+                                    retret(file);
+                                }
                             }
                         }
                     }
